@@ -117,11 +117,6 @@
     status = "okay";
 };
 
-&rtc {
-    clocks = <&clocks RPI_PICO_CLKID_CLK_RTC>;
-    status = "okay";
-};
-
 &adc {
     status = "okay";
     pinctrl-0 = <&adc_default>;
